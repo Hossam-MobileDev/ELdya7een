@@ -22,7 +22,7 @@ public class SingletonRetrofit {
 
         Retrofit retrofit=new Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
-                .baseUrl("http://aldaihani.org/aldaih/")
+                .baseUrl("")
                 .build();
         RetrofitApi retrofitApi =retrofit.create(RetrofitApi.class);
 
